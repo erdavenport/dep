@@ -18,7 +18,7 @@ input.path <- c("../results/3_data/")
 
 
 ##### Read in table of covariates:
-covs <- read.table(file=paste0(input.path, "table_covariates_DEP_103014ERD.txt"), sep="\t", header=TRUE)
+covs <- read.table(file=paste0(input.path, "table_covariates_DEP_103114ERD.txt"), sep="\t", header=TRUE)
 
 
 
