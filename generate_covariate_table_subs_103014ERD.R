@@ -43,6 +43,7 @@ for (i in 1:dim(samps)[1]) {
 mycovs <- covs[ind,]
 
 mycovs <- cbind(samples, mycovs)
+mycovs$Run[which(mycovs$Run == "M602/604")] <- "M603/604"
 
 write.table(mycovs, paste0(input.path, "table_covariates_DEP_",today,"ERD.txt"), sep="\t", row.names=FALSE, quote=FALSE)
 
