@@ -19,6 +19,8 @@ input.path <- c("../results/3_data/")
 
 ##### Read in table of covariates:
 covs <- read.table(file=paste0(input.path, "table_covariates_DEP_103114ERD.txt"), sep="\t", header=TRUE)
+# Change phase 4ish to phase 4:
+covs$Phase[grep("4ish", covs$Phase)] <- "phase_4"
 
 
 
