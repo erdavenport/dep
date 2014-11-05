@@ -1,0 +1,22 @@
+# 11/5/14
+
+# LMM, all phases, only bacteria in more than 75% of individuals:
+./lmm_DEP_all_taxa_covs_regressed_common_110514ERD.R
+
+# LMM, each phase, only bacteria in more than 75% of individuals:
+./lmm_DEP_all_taxa_each_phase_covs_regressed_common_110514ERD.R
+
+# Significant hits for phase 4, plot out:
+./plot_phase_4_lmm_covs_regressed_common_significant_associations_110514ERD.R  
+
+# Generate diversity metrics: 
+./generate_diversity_metrics_110514ERD.R
+
+# LMM of rank on diversity metrics, all phases:
+./lmm_DEP_diversity_all_taxa_covs_regressed_110514ERD.R
+
+# LMM of rank on diversity metrics, each phase:
+./lmm_DEP_diveristy_each_phase_covs_regressed_110514ERD.R
+
+# Plot the one diversity metric with a p < 0.05:
+./plot_phase_4_lmm_diversity_covs_regressed_significant_associations_110514ERD.R
